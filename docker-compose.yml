@@ -12,5 +12,7 @@ services:
       - POSTGRES_DB=banco-teste
     volumes:
       - .:/data
+      - ./create_table.sql:/docker-entrypoint-initdb.d/create_table.sql
+
 
   
