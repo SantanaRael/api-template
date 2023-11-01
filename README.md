@@ -1,4 +1,4 @@
-# Tech Challenge - PosTech-3SOAT - FIAP
+# API TEMPLATE
 
 Template de uma API que consulta o banco de dados Postgres
 
