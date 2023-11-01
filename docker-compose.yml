@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  database:
+    image: postgres
+    container_name: container_postgres_api
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=banco-teste
+    volumes:
+      - .:/data
+
+  
