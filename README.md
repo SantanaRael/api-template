@@ -29,20 +29,20 @@ Instalar as dependências do projeto:
 npm install
 ```
 
-Subir o container com o postgres:
+Subir dois containers com a API e outro com postgres com o comando:
 
 ```sh
 docker-compose up -d
 ```
 
-Subir a aplicação principal:
+Verificar se os containers subiram corretamente:
 
 ```sh
-node app.js
+docker ps
 ```
 
 ## Documentação da API
-Após configurar o arquivo ".env" para conectar a um banco existente:
+Acessar aplicação pelo link:
 
 ```sh
 http://localhost:3000/
